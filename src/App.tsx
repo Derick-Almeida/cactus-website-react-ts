@@ -1,5 +1,11 @@
+import Header from "./components/Navbar";
+
 function App() {
-  return <>DASA sadsdssd</>;
+  return (
+    <>
+      <Header />
+    </>
+  );
 }
 
 export default App;
