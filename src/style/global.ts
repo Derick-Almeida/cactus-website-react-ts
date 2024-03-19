@@ -28,10 +28,15 @@ const GlobalStyle = createGlobalStyle`
 
     a{
         text-decoration: none;
+        color: inherit;
     }
 
     button{
         cursor: pointer;
+    }
+
+    body{
+        background-color: var(--body-color);
     }
 `;
 
