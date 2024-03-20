@@ -2,7 +2,7 @@ import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
     * {
-        border: 0;
+        margin: 0;
         padding: 0;
         box-sizing: border-box;
         font-family: "Montserrat", sans-serif;
@@ -12,6 +12,7 @@ const GlobalStyle = createGlobalStyle`
         --white: #faf9fa;
         --black: #0b0a0b;
         --green: #83c94a;
+        --light-green: #a3db76;
         --gray: #b6acb9;
         --body-color: #151316;
         --container-color: #201d20;
@@ -35,6 +36,20 @@ const GlobalStyle = createGlobalStyle`
     body{
         background-color: var(--body-color);
         overflow-x: hidden;
+    }
+
+    html{
+        scroll-behavior: smooth;
+     
+        ::-webkit-scrollbar{
+            width: 10px;
+            background: var(--container-color);
+            background: #272528;
+        }
+        ::-webkit-scrollbar-thumb{
+            background: var(--body-color);
+            background: #413d42;
+        }
     }
 `;
 

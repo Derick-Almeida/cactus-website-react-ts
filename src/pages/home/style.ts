@@ -52,6 +52,7 @@ export const button = styled.button<IButtonStyleProps>`
   text-transform: uppercase;
   font-weight: 700;
   font-size: 1rem;
+  border: 0;
 
   padding: 0.5rem 0.8rem;
 
