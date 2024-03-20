@@ -36,6 +36,20 @@ const GlobalStyle = createGlobalStyle`
         background-color: var(--body-color);
         overflow-x: hidden;
     }
+
+    html{
+        scroll-behavior: smooth;
+     
+        ::-webkit-scrollbar{
+            width: 10px;
+            background: var(--container-color);
+            background: #272528;
+        }
+        ::-webkit-scrollbar-thumb{
+            background: var(--body-color);
+            background: #413d42;
+        }
+    }
 `;
 
 export default GlobalStyle;
