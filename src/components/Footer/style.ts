@@ -40,7 +40,8 @@ export const h3 = styled.h3`
 export const ul = styled.ul`
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 0.5rem;
+  margin-top: 1rem;
 `;
 
 export const li = styled.li`
