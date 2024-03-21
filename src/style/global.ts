@@ -33,6 +33,10 @@ const GlobalStyle = createGlobalStyle`
         cursor: pointer;
     }
 
+    img {
+        user-select: none;
+    }
+
     body{
         background-color: var(--body-color);
         overflow-x: hidden;

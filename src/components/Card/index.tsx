@@ -4,7 +4,7 @@ import { ICardProps } from "./types";
 
 import { RiShoppingBagLine } from "react-icons/ri";
 
-export const Card = ({ img, price, title, detail = false }: ICardProps) => {
+export const Card = ({ img, title, price = 0, detail = false }: ICardProps) => {
   return (
     <S.card>
       <S.img src={img} alt="cute cactus 3d" />

@@ -5,15 +5,15 @@ export const img = styled.img`
   top: -6rem;
   left: 0;
   right: 0;
-  width: 14.5rem;
+  width: 11.5rem;
   transform: scale(1.2);
   transition: transform 0.4s;
 `;
 
 export const card = styled.div`
   position: relative;
-  width: 15rem;
-  padding: 9rem 1rem 1.5rem 1rem;
+  width: 12rem;
+  padding: 7.5rem 1rem 1.5rem 1rem;
 
   border-radius: 1.5rem;
   border: 2px solid var(--light-green);
